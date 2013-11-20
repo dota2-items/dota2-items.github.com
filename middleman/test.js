@@ -21,7 +21,7 @@ indexs["76561198075686650"]=3;
 indexs["76561198095677527"]=4;
 function GetandSet()
 {
-alert("1");
+
 var urls = [" http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=52A32619A2A2E702F8A2E8E9B6D3F2D4&steamids=76561198102413709","http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=52A32619A2A2E702F8A2E8E9B6D3F2D4&steamids=76561198093727182","http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=52A32619A2A2E702F8A2E8E9B6D3F2D4&steamids=76561198094462805","http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=52A32619A2A2E702F8A2E8E9B6D3F2D4&steamids=76561198069720171"];
 $.get(" http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=52A32619A2A2E702F8A2E8E9B6D3F2D4&steamids=76561198070692664,76561198093727182,76561198094462805,76561198069720171,76561198064686095,76561198093631883,76561198078242922,76561198075686650,76561198095677527",function(data){
 for( var i = 0 ; i < 9 ; i++)
