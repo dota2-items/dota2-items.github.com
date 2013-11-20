@@ -67,7 +67,7 @@ document.getElementById(tabs[data.response.players[i].steamid]).rows[indexs[data
 }
 $(document).ready(function()
 {
-setInterval(GetandSet(),60000);
+GetandSet();
 });
 
 
