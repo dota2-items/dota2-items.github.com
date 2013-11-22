@@ -5,10 +5,10 @@
 <title>中间人</title>
 <SCRIPT Language="JavaScript">
 tips = new Array(2);
-tips[0] = "http://middleman.duapp.com/";
-tips[1] = "http://middleman.duapp.com/";
+tips[0] = "http://middleman0.duapp.com/";
+tips[1] = "http://middleman1.duapp.com/";
 index = Math.floor(Math.random() * tips.length);
-document.write("<iframe frameborder=0 src=" tips[index] " width=468 height=60 scrolling=no></iframe>");
+document.write('<frameset framespacing="0" border="0" rows="0" frameborder="0"> <frame name="main" src="'+ tips[index]+'" scrolling="auto" noresize> </frameset>');
 </SCRIPT> 
 </head>
 
